@@ -38,11 +38,12 @@
 h1{
     display: flex;
     justify-content: center;
+    width: 100vw;
     /* font-family: "Bebas Neue", sans-serif; */
     font-family: "Whisper", cursive;
     /* font-family: "Yatra One", system-ui; */
     font-weight: 500;
-    font-size: 45px;
+    font-size: 40px;
 }
 .whatsapp-logo{
     width:30px
