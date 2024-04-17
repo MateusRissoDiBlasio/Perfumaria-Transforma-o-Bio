@@ -1,0 +1,97 @@
+@media (max-width: 320px){
+
+body{
+    width: 320px;
+    height: 100vw;
+}
+
+
+#app{
+    width: 320px;
+    height: 100vh;
+}
+
+.bio{
+        margin-top: -60px;
+        width: 320px;
+        height: 100vh;
+        scale: 75%;
+        margin-left: -5px;
+        justify-content: flex-start;
+    }
+    
+    
+    }
+
+@media (min-width: 321px) and (max-width: 375px){
+    
+    body{
+        width: 320px;
+        height: 800px;
+    }
+    #app{
+        min-width: 321px;
+        max-width: 375px;
+        height: 800px;
+    }
+    
+    .bio{
+        scale: 80%;
+        margin-top: -80px;
+        width: 375px;
+        height: 800px;
+        margin-left: -8px;
+        justify-content: flex-start;
+    }
+    
+    
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+
+    body{
+        width: 376px;
+        height: 1080px;
+    }
+
+    #app{
+        min-width: 376px;
+        max-width: 425px;
+        height: 1080px;
+    }
+    
+    .bio{
+        scale: 85%;
+        margin-top: -90px;
+        width: 376px;
+        height: 1080px;
+        margin-left: -8px;
+        justify-content: flex-start;
+    }
+
+
+}
+
+@media(min-width: 426px) and (max-width: 677px){
+
+    body{
+        width: 426px;
+        height: 1080px;
+    }
+
+    #app{
+        min-width: 426px;
+        max-width: 677px;
+        height: 1080px;
+    }
+    
+    .bio{
+        scale: 95%;
+        min-width: 426px;
+        max-width: 677px;
+        height: 1080px;
+        justify-content: flex-start;
+    }  
+    
+    
+} 
