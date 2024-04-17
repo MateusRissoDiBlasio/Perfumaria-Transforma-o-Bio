@@ -5,10 +5,9 @@ const body = document.body;
 const options = {
     el: root,
     eventsEl: body,
-
     gpgpuSize: 20,
-
     background: 0x4b0082,
+    // background: 0x4b0950,
     material: "basic",
     materialParams:{
         transparent: true,
