@@ -92,6 +92,26 @@ body{
         height: 1080px;
         justify-content: flex-start;
     }  
+
+@media(min-width: 1080px) and (max-width: 1080px){
+
+    body{
+        width: 1080px;
+        height: 1080px;
+    }
+
+    #app{
+        width: 1080px;
+        height: 1080px;
+    }
+    
+    .bio{
+        
+        min-width: 1080px;
+        max-width: 1080px;
+        height: 1080px;
+        justify-content: flex-start;
+    }  
     
     
 } 
