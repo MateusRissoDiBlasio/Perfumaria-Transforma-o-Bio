@@ -1,26 +1,80 @@
 @media (max-width: 320px){
-
-body{
-    width: 320px;
-    height: 100vw;
-}
-
-
-#app{
-    width: 320px;
-    height: 100vh;
-}
-
-.bio{
-        margin-top: -60px;
+    body,
+    html{
         width: 320px;
-        height: 100vh;
-        scale: 75%;
-        margin-left: -5px;
-        justify-content: flex-start;
+        height: 600px;
     }
     
+    #app{
+        width: 320px;
+        height: 600px;
+    }
     
+    .top{
+        display: flex;
+        width: 320px;
+        height: 140px;
+        margin-left: 85px;       
+    }
+    
+    .top img{
+        width: 140px;
+        height: 140px;
+    }
+    
+    .bio{
+        padding: 0;
+        width: 320px;
+        height: 600px;
+        justify-content: flex-start;
+    }  
+    
+    h1{
+        justify-content: flex-start;
+        font-size: 26px;
+        margin-left: 14px;
+    }
+    
+    .btns{
+        display: flex;
+        width: 320px;
+        align-items: flex-start;
+    }
+    
+    .lines{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .whatsapp-logo{
+        width:25px
+
+    }
+    
+    .bubbly-button {
+        width:180px;
+        height:40px;
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    .fa-map-marker-alt{
+        margin: 0;
+        font-size: 15px;
+
+    }
+
+    
+    .bottom{
+        width: 320px;
+        margin-left: 14px;
+    }
+    .glow-on-hover{
+        width: 210px;
+        height: 60px;
+        font-size: 26px;
+    }
+
     }
 
 @media (min-width: 321px) and (max-width: 375px){
@@ -72,46 +126,124 @@ body{
 
 }
 
-@media(min-width: 426px) and (max-width: 677px){
+@media(min-width: 426px) and (max-width: 600px){ 
 
-    body{
-        width: 426px;
-        height: 1080px;
-    }
+body,
+html{
+    width: 600px;
+    height: 800px;
+}
 
-    #app{
-        min-width: 426px;
-        max-width: 677px;
+#app{
+    width: 600px;
+    height: 800px;
+}
+
+.top{
+    display: flex;
+    width: 600px;
+    height: 200px;
+    margin-left: 240px;
+    
+}
+
+.top img{
+    width: 200px;
+    height: 200px;
+}
+
+.bio{
+    padding: 0;
+    width: 600px;
+    height: 800px;
+    justify-content: flex-start;
+}  
+
+h1{
+    justify-content: flex-start;
+    margin-left: 60px;
+}
+
+.btns{
+    display: flex;
+    width: 600px;
+    align-items: flex-start;
+}
+
+.lines{
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.bubbly-button {
+    height:50px;
+    margin: 10px;
+}
+
+.bottom{
+    width: 600px;
+    margin-left: 95px;
+}
+}
+
+@media(min-width: 601px) and (max-width: 800px){ 
+
+    body,
+    html{
+        width: 800px;
         height: 1080px;
     }
     
-    .bio{
-        scale: 95%;
-        min-width: 426px;
-        max-width: 677px;
-        height: 1080px;
-        justify-content: flex-start;
-    }  
-
-@media(min-width: 1080px) and (max-width: 1080px){
-
-    body{
-        width: 1080px;
-        height: 1080px;
-    }
-
     #app{
-        width: 1080px;
+        width: 800px;
         height: 1080px;
     }
     
-    .bio{
+    .top{
+        display: flex;
+        width: 800px;
+        height: 200px;
+        margin-left: 420px;
         
-        min-width: 1080px;
-        max-width: 1080px;
-        height: 1080px;
+    }
+    
+    .top img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .bio{
+        padding: 0;
+        width: 800px;
+        height: 800px;
         justify-content: flex-start;
     }  
     
+    h1{
+        justify-content: flex-start;
+        margin-left: 150px;
+        
+    }
     
-} 
+    .btns{
+        display: flex;
+        width: 800px;
+        align-items: flex-start;
+    }
+    
+    .lines{
+        margin-top: 10px;
+        margin-left: 145px;
+    }
+    
+    .bubbly-button {
+        height:50px;
+        margin: 10px;
+    }
+    
+    .bottom{
+        width: 600px;
+        margin-left: 85px;
+    }
+    }
+    
