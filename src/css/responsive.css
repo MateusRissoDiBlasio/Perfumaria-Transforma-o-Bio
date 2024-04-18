@@ -90,7 +90,7 @@
         display: flex;
         width: 375px;
         height: 180px;
-        margin-left: 140px;
+        margin-left: 190px;
     }
     
     .top img{
@@ -108,8 +108,7 @@
     h1{
         justify-content: flex-start;
         font-size: 34px;
-        margin-left: 30px;
-        color:green;
+        margin-left: 50px;
     }
 
     .btns{
@@ -120,7 +119,7 @@
 
     .lines{
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 30px;
     }
 
     .bubbly-button {
@@ -131,7 +130,7 @@
 
     .bottom{
         width: 375px;
-        margin-left: 40px;
+        margin-left: 80px;
     }
 
     .glow-on-hover{
