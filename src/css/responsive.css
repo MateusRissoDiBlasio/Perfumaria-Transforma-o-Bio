@@ -484,10 +484,8 @@
     }
     
     h1{
-        justify-content: flex-start;
-        font-size: 34px;
-        margin-left: 50px;
-        visibility: hidden;
+        justify-content: center;
+        font-size: 30px;
     }
 
     .btns{
@@ -505,7 +503,8 @@
         width: 280px;
         height:50px;
         margin: 5px;
-        font-size: 18px;
+        font-size: 14px;
+        text-shadow: 1.5px 1.5px black;
     }
 
     .bottom{
@@ -516,7 +515,7 @@
     .glow-on-hover{
         width: 280px;
         height: 60px;
-        font-size: 30px;
+        font-size: 28px;
     }   
 }
 
