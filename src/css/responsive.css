@@ -455,18 +455,18 @@
 
 @media (min-width: 358px) and (max-width: 375px){
     html{
-        width: 358px;
+        width: 375px;
         height: 700px;
     }
 
     #app{
-        width: 358px;
+        width: 375px;
         height: 700px;
     }
     
     .top{
         display: flex;
-        width: 358px;
+        width: 375px;
         height: 180px;
         margin-left: 180px;
     }
@@ -478,7 +478,7 @@
     
     .bio{
         padding: 0;
-        width: 358px;
+        width: 375px;
         height: 700px;
         justify-content: flex-start;
     }
@@ -491,7 +491,7 @@
 
     .btns{
         display: flex;
-        width: 358px;
+        width: 375px;
         align-items: flex-start;
     }
 
@@ -508,7 +508,7 @@
     }
 
     .bottom{
-        width: 358px;
+        width: 375px;
         margin-left: 75px;
     }
 
@@ -588,18 +588,18 @@
 @media (min-width: 393px) and (max-width: 410px){
     body
     html{
-        width: 393px;
+        width: 410px;
         height: 1080px;
     }
 
     #app{
-        width: 393px;
+        width: 410px;
         height: 1080px;
     }
     
     .top{
         display: flex;
-        width: 393px;
+        width: 410px;
         height: 200px;
         margin-left: 185px;       
     }
@@ -611,7 +611,7 @@
 
     .bio{
         padding: 0;
-        width: 393px;
+        width: 410px;
         height: 1080px;
         justify-content: flex-start;
     }
@@ -625,7 +625,7 @@
     
     .btns{
         display: flex;
-        width: 393px;
+        width: 410px;
         align-items: flex-start;
     }
     
@@ -646,7 +646,7 @@
   }   
 
     .bottom{
-        width: 393px;
+        width: 410px;
         margin-left: 60px;
     }
 }
