@@ -522,12 +522,12 @@
 @media (min-width: 376px) and (max-width: 392px){
     body
       html{
-          width: 376px;
+          width: 392px;
           height: 800x;
       }
   
       #app{
-          width: 376px;
+          width: 392px;
           height: 800px;
       }
       
@@ -554,7 +554,6 @@
           justify-content: flex-start;
           font-size: 40px;
           margin-left: 35px;
-          color:yellow;
       }
       
       .btns{
