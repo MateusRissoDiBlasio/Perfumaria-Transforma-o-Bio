@@ -487,6 +487,7 @@
         justify-content: flex-start;
         font-size: 34px;
         margin-left: 50px;
+        visibility: hidden;
     }
 
     .btns{
