@@ -509,7 +509,7 @@
 
     .bottom{
         width: 375px;
-        margin-left: 75px;
+        margin-left: 80px;
     }
 
     .glow-on-hover{
@@ -535,7 +535,7 @@
           display: flex;
           width: 376px;
           height: 200px;
-          margin-left: 172px;       
+          margin-left: 175px;       
       }
       
       .top img{
@@ -553,7 +553,8 @@
       h1{
           justify-content: flex-start;
           font-size: 40px;
-          margin-left: 35px;
+          margin-left: 36px;
+          color: yellow;
       }
       
       .btns{
@@ -564,7 +565,7 @@
       
       .lines{
           margin-top: 10px;
-          margin-left: 30px;
+          margin-left: 32px;
       }
   
       .bubbly-button {
@@ -580,7 +581,7 @@
   
       .bottom{
           width: 376px;
-          margin-left: 75px;
+          margin-left: 78px;
       }
   }
   
