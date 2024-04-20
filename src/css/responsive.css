@@ -67,10 +67,14 @@
         width: 320px;
         margin-left: 105px;
     }
-    .glow-on-hover{
+    .shine-button{
         width: 210px;
-        height: 60px;
-        font-size: 26px;
+        height: 50px;
+        font-size: 24px;
+    }
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 7px);
+        height: calc(100% + 7px);
     }
 }
 
@@ -376,14 +380,20 @@
 
     .bottom{
         width: 321px;
-        margin-left: 52px;
+        margin-left: 54px;
     }
 
-    .glow-on-hover{
+    .shine-button{
         width: 260px;
         height: 60px;
         font-size: 26px;
-    }   
+    }  
+
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 8px);
+        height: calc(100% + 8px);
+    }
+    
 }
 
 @media (min-width: 339px) and (max-width: 357px){
@@ -446,11 +456,16 @@
         margin-left: 75px;
     }
 
-    .glow-on-hover{
+    .shine-button{
         width: 260px;
         height: 60px;
         font-size: 26px;
-    }   
+    }
+    
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 8px);
+        height: calc(100% + 8px);
+    }
 }
 
 @media (min-width: 358px) and (max-width: 375px){
@@ -508,15 +523,22 @@
     }
 
     .bottom{
+        display: flex;
         width: 375px;
-        margin-left: 80px;
+        justify-content: center;
+        align-items: center;
     }
 
-    .glow-on-hover{
+    .shine-button{
         width: 280px;
-        height: 75px;
+        height: 60px;
         font-size: 28px;
     }   
+    
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 8px);
+        height: calc(100% + 8px);
+    }
 }
 
 @media (min-width: 376px) and (max-width: 392px){
@@ -573,15 +595,21 @@
           font-size: 18px;
       }
 
-      .glow-on-hover{
+      .shine-button{
         width: 300px;
         height: 80px;
         font-size: 36px;
+    }
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 8px);
+        height: calc(100% + 8px);
     }   
   
       .bottom{
-          width: 376px;
-          margin-left: 78px;
+        display: flex;
+        width: 376px;
+        justify-content: center;
+        align-items: center;
       }
   }
   
@@ -634,20 +662,26 @@
         margin-left: 35px;
     }
 
-    .bubbly-button {
+    .bubbly-button{
         margin: 10px;
         font-size: 18px;
     }
 
-    .glow-on-hover{
-      width: 330px;
-      height: 90px;
-      font-size: 38px;
-  }   
+    .shine-button{
+        width: 330px;
+        height: 90px;
+        font-size: 38px;
+    }   
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 10px);
+        height: calc(100% + 10px);
+    }
 
     .bottom{
+        display: flex;
         width: 410px;
-        margin-left: 60px;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -705,15 +739,21 @@
         font-size: 18px;
     }
 
-    .glow-on-hover{
+    .shine-button{
       width: 330px;
       height: 90px;
       font-size: 38px;
-  }   
+    }
+    .shine-button::before, .shine-button::after {
+        width: calc(100% + 10px);
+        height: calc(100% + 10px);
+}
 
     .bottom{
+        display: flex;
         width: 411px;
-        margin-left: 80px;
+        align-items: center;
+        justify-content: center; 
     }
 }
 
