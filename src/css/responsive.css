@@ -631,7 +631,7 @@
         display: flex;
         width: 410px;
         height: 200px;
-        margin-left: 185px;       
+        margin-left: 190px;       
     }
     
     .top img{
@@ -649,7 +649,7 @@
     h1{
         justify-content: flex-start;
         font-size: 40px;
-        margin-left: 40px;
+        margin-left: 45px;
         color:coral;
     }
     
@@ -661,7 +661,7 @@
     
     .lines{
         margin-top: 10px;
-        margin-left: 35px;
+        margin-left: 38px;
     }
 
     .bubbly-button{
@@ -684,6 +684,7 @@
         width: 410px;
         align-items: center;
         justify-content: center;
+        margin-left: -18px;
     }
 }
 
