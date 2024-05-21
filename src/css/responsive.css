@@ -357,7 +357,7 @@
         justify-content: flex-start;
         font-size: 34px;
         margin-left: 34px;
-        color:#FFFFFF;
+        color: yellow;
     }
 
     .btns{
@@ -430,7 +430,7 @@
         justify-content: flex-start;
         font-size: 34px;
         margin-left: 40px;
-        color: #FFFFFF;
+        color: coral;
     }
 
     .btns{
@@ -501,6 +501,7 @@
     h1{
         justify-content: center;
         font-size: 30px;
+        color:crimson;
     }
 
     .btns{
@@ -577,7 +578,7 @@
           justify-content: flex-start;
           font-size: 40px;
           margin-left: 32px;
-          color: #FFFFFF;
+          color: darkcyan;
       }
       
       .btns{
@@ -650,7 +651,7 @@
         justify-content: flex-start;
         font-size: 40px;
         margin-left: 45px;
-        color:#FFFFFF;
+        color: lime;
     }
     
     .btns{
